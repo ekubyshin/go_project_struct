@@ -68,6 +68,8 @@ func main() {
 	// 1. Создаём объект
 	service := NewUserService()
 
+	// runtime logic
+
 	// 2. Внедряем зависимость через свойство
 	service.SetRepository(repo)
 
